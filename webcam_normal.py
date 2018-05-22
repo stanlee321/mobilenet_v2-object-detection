@@ -34,7 +34,6 @@ PATH_TO_CKPT = os.path.join(CWD_PATH, 'object_detection', MODEL_NAME, 'frozen_in
 PATH_TO_LABELS = os.path.join(CWD_PATH, 'object_detection', 'data', 'mscoco_label_map.pbtxt')
 NUM_CLASSES = 90
 
-
 # ## Load a (frozen) Tensorflow model into memory.
 # In[6]:
 
@@ -69,7 +68,6 @@ def load_image_into_numpy_array(image):
 # In[9]:
 
 # For the sake of simplicity we will use only 2 images:
-
 
 
 with detection_graph.as_default():
